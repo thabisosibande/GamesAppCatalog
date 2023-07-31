@@ -33,13 +33,10 @@ class GameViewModel : ViewModel() {
                 // Update the total number of games
                 _totalGamesCount.postValue(gamesList.size)
             } catch (e: Exception) {
-                // Handle error if the API request was not successful
-                // e.g., Show an error message to the user
             }
         }
     }
 
-    // Create the Retrofit instance here (Step 4)
     private fun createGameApiService(): GameApiService {
         val retrofit = Retrofit.Builder()
             .baseUrl("https://www.freetogame.com/api/")

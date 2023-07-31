@@ -38,7 +38,6 @@ class GameAdapter(private var gameList: List<Game>) :
             gameList.filter { game ->
                 game.title.contains(query, ignoreCase = true) ||
                         game.genre.contains(query, ignoreCase = true)
-                // Add more conditions here to filter based on other fields if needed
             }
         }
         notifyDataSetChanged()
@@ -51,7 +50,7 @@ class GameAdapter(private var gameList: List<Game>) :
         holder.gameName.text = game.title
         holder.gameGenre.text = game.genre
 
-        // Load game thumbnail image using Glide (or any other image loading library you prefer)
+        // Load game thumbnail image using Glide
         Glide.with(holder.itemView)
             .load(game.thumbnail)
             .centerCrop()
