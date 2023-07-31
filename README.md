@@ -11,9 +11,6 @@ The Game Catalog App is an Android application that allows users to browse and d
 - Shows a loading animation while fetching data from the API.
 - Allows offline access to previously fetched game data. (In Progress)
 
-## Screenshots
-
-
 ## Getting Started
 
 To get started with the Game Catalog App, follow these steps:
@@ -31,6 +28,14 @@ The Game Catalog App uses the following dependencies:
 - Room: To store the fetched game data locally for offline access. (TO DO)
 - Kotlin Coroutines: For handling asynchronous tasks efficiently.
 - Glide: To load and display images from URLs.
+
+## Screenshots
+
+![Screenshot_20230731_204104](https://github.com/thabisosibande/GamesAppCatalog/assets/52313382/7de9415e-9ce2-40ed-becc-f025d824da92)
+
+![Screenshot_20230731_203859](https://github.com/thabisosibande/GamesAppCatalog/assets/52313382/f3177228-e6ca-4bcd-bbf6-87819e116617)
+
+![Screenshot_20230731_203950](https://github.com/thabisosibande/GamesAppCatalog/assets/52313382/9dcfd2df-abf5-4bbb-8665-76701d2df493)
 
 ## Contributing
 
