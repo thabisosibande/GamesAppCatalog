@@ -1,5 +1,6 @@
 package com.thabisosibande.gamesappcatalog
 
+import com.thabisosibande.gamesappcatalog.data.model.Game
 import retrofit2.http.GET
 import retrofit2.http.Query
 
