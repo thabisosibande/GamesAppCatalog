@@ -1,4 +1,4 @@
-package com.thabisosibande.gamesappcatalog
+package com.thabisosibande.gamesappcatalog.data.model
 
 data class Game(
     val id: Int,
